@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# --- EMG Project Specific Data ---
+# We ignore raw lab data and intermediate conversions to keep the repo light
+*.mat
+*.csv
+# This allows you to still share your final performance summary
+!feature_summary_stats.csv
+
+# Local Project Folders
+outputs/
+csv_data/
+csv1_data/
+test/
+saved_model/temp/
